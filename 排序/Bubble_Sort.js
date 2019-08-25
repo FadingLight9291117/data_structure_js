@@ -15,7 +15,7 @@ function Bubble_Sort(a, n) {
                 flag = true; // 发生了交换
             }
         }
-        if (flag == false) break; // 全程无交换
+        if (flag === false) break; // 全程无交换
     }
 }
 
